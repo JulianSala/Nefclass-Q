@@ -1,7 +1,24 @@
+########################################################################
+##                          Ignore files
+########################################################################
+
+Makefile*
+*.prl
+*.app
+
+## VIM termporal files
+.*.swp
+*.directory
+
+## Archivos de MinGW
+*.Debug
+*.Release
+
 # Compiled Object files
 *.slo
 *.lo
 *.o
+*.a
 
 # Compiled Dynamic libraries
 *.so
@@ -10,3 +27,12 @@
 *.lai
 *.la
 *.a
+
+# Qt files
+*.pro.user*
+*.qmlproject.user*
+*.autosave
+*.rcc
+*.obj
+*.moc
+
