@@ -8,6 +8,9 @@ include(nefclass.pri)
 TEMPLATE = subdirs
 CONFIG += ordered
 
+SUBDIRS += \
+    src \
+
 OTHER_FILES += \
     README.md \
     dist/copyright_template.txt
